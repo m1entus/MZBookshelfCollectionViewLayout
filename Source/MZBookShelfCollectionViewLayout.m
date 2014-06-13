@@ -122,6 +122,7 @@ NSString *const MZBookshelfCollectionViewLayoutDecorationViewKind = @"MZBookshel
 
 - (UICollectionViewLayoutAttributes *)layoutAttributesForDecorationViewOfKind:(NSString *)decorationViewKind atIndexPath:(NSIndexPath *)indexPath
 {
+    
     id shelfRect = self.bookShelfRectanges[indexPath];
     
     // this should never happen, but just in case...

@@ -23,6 +23,7 @@
 		1F33D40A194B23F400E77DCF /* BookShelfExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F33D409194B23F400E77DCF /* BookShelfExampleTests.m */; };
 		1F33D415194B265A00E77DCF /* MZBookShelfCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F33D414194B265A00E77DCF /* MZBookShelfCollectionViewLayout.m */; };
 		1F33D418194B268200E77DCF /* MZBookShelfDecorationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F33D417194B268200E77DCF /* MZBookShelfDecorationView.xib */; };
+		1F33D41B194B2AEE00E77DCF /* LXReorderableCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F33D41A194B2AEE00E77DCF /* LXReorderableCollectionViewFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		1F33D413194B265A00E77DCF /* MZBookShelfCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZBookShelfCollectionViewLayout.h; path = ../Source/MZBookShelfCollectionViewLayout.h; sourceTree = "<group>"; };
 		1F33D414194B265A00E77DCF /* MZBookShelfCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MZBookShelfCollectionViewLayout.m; path = ../Source/MZBookShelfCollectionViewLayout.m; sourceTree = "<group>"; };
 		1F33D417194B268200E77DCF /* MZBookShelfDecorationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MZBookShelfDecorationView.xib; path = ../MZBookShelfDecorationView.xib; sourceTree = "<group>"; };
+		1F33D419194B2AEE00E77DCF /* LXReorderableCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXReorderableCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		1F33D41A194B2AEE00E77DCF /* LXReorderableCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXReorderableCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				1F33D403194B23F400E77DCF /* BookShelfExampleTests */,
 				1F33D3DD194B23F400E77DCF /* Frameworks */,
 				1F33D3DC194B23F400E77DCF /* Products */,
+				1F33D419194B2AEE00E77DCF /* LXReorderableCollectionViewFlowLayout.h */,
+				1F33D41A194B2AEE00E77DCF /* LXReorderableCollectionViewFlowLayout.m */,
 			);
 			sourceTree = "<group>";
 		};
@@ -267,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F33D41B194B2AEE00E77DCF /* LXReorderableCollectionViewFlowLayout.m in Sources */,
 				1F33D3F5194B23F400E77DCF /* BSViewController.m in Sources */,
 				1F33D3EB194B23F400E77DCF /* main.m in Sources */,
 				1F33D3EF194B23F400E77DCF /* BSAppDelegate.m in Sources */,
