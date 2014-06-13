@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0207529F-E0F2-48F8-9BD6-55A7DB8A2FA2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BookShelfExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>57E1DEF2-D457-4088-8CF0-86D7AA0D1D0D</key>
+		<string>https://github.com/m1entus/MZBookshelfCollectionViewLayout.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Example/BookShelfExample.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>57E1DEF2-D457-4088-8CF0-86D7AA0D1D0D</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/m1entus/MZBookshelfCollectionViewLayout.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>57E1DEF2-D457-4088-8CF0-86D7AA0D1D0D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>57E1DEF2-D457-4088-8CF0-86D7AA0D1D0D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MZBookshelfCollectionViewLayout</string>
+		</dict>
+	</array>
+</dict>
+</plist>
