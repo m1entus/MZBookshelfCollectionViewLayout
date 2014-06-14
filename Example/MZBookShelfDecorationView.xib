@@ -7,9 +7,18 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="cRv-GZ-u7a">
-            <rect key="frame" x="0.0" y="0.0" width="748" height="36"/>
+            <rect key="frame" x="0.0" y="0.0" width="748" height="113"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-            <color key="backgroundColor" red="0.56683084239130432" green="0.26285926653771863" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bookshelf" translatesAutoresizingMaskIntoConstraints="NO" id="uz8-Yw-IZK">
+                    <rect key="frame" x="0.0" y="0.0" width="748" height="113"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
         </collectionReusableView>
     </objects>
+    <resources>
+        <image name="bookshelf" width="786" height="111"/>
+    </resources>
 </document>

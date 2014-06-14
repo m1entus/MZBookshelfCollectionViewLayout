@@ -79,7 +79,6 @@ NSString *const MZBookshelfCollectionViewLayoutDecorationViewKind = @"MZBookshel
         for (int row = 0; row < itemsAcross; row++)
         {
             CGSize bookShelfSize = [self.delegate collectionView:self.collectionView layout:self referenceSizeForDecorationViewForRow:row inSection:0];
-            NSLog(@"%d",row);
             
             y += self.itemSize.height;
             dictionary[[NSIndexPath indexPathForItem:row inSection:0]] = [NSValue valueWithCGRect:CGRectMake(0, roundf(y), bookShelfSize.width, bookShelfSize.height)];

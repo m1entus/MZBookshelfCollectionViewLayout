@@ -18,6 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
+    self.collectionView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background"]];
 	
     MZBookshelfCollectionViewLayout *layout = (id)self.collectionView.collectionViewLayout;
     [layout registerNib:[UINib nibWithNibName:@"MZBookShelfDecorationView" bundle:nil] forDecorationViewOfKind:MZBookshelfCollectionViewLayoutDecorationViewKind];
@@ -40,9 +42,9 @@
 {
     if (section == 0) {
         if (collectionViewLayout.scrollDirection == UICollectionViewScrollDirectionHorizontal) {
-            return CGSizeMake([self widthForSection:section], 30);
+            return CGSizeMake([self widthForSection:section], 113);
         } else {
-            return CGSizeMake(collectionViewLayout.collectionViewContentSize.width, 30);
+            return CGSizeMake(collectionViewLayout.collectionViewContentSize.width, 113);
         }
         
     }
@@ -51,7 +53,7 @@
 
 - (UIOffset)collectionView:(UICollectionView *)collectionView layout:(MZBookshelfCollectionViewLayout *)collectionViewLayout decorationViewAdjustmentForRow:(NSInteger)row inSection:(NSInteger)section
 {
-    return UIOffsetMake(0, 0);
+    return UIOffsetMake(8, -30);
 }
 
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
